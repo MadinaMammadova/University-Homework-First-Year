@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n,m=0;
+    cout<<"Insert Number = ";
+    cin>>n;
+if(n<0) { 
+   n=-n;
+}
+for (int i=1;i<=n;i++) {
+    if (n%i==0) {
+        m=m+1;
+}
+}
+   cout<<"Integer Divisors = "<<m<<endl;
+  return 0;
+}
