@@ -1,0 +1,12 @@
+print("Number =",end=" ")
+number=int(input())
+loop=1
+sequences=0
+firstnumber=1
+print("Fibonacci Sequence =",end=" ")
+while loop<=number:
+    print(sequences,end=" ")
+    sum=sequences+firstnumber
+    sequences=firstnumber
+    firstnumber=sum
+    loop=loop+1
