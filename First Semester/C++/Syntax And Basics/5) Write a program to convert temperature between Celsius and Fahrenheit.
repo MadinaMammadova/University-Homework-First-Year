@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+    double C,F;
+    cout<<"Insert the Degree =  ";
+    cin>>C;
+    F=C*(9.0/5)+32;
+    C=(F-32)*(5.0/9);
+    cout<<"Celcius = "<<C<<endl;
+    cout<<"Fahrenheit = "<<F;
+    return 0;
+}
