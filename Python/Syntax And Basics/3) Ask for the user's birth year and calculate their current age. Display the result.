@@ -1,0 +1,6 @@
+print("Birth Year =",end=" ") 
+birthyear=int(input())
+import datetime
+currentyear = datetime.date.today().year
+age=currentyear-birthyear
+print("Age =",age)
