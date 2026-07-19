@@ -1,0 +1,5 @@
+print("Lenght =",end=" ")
+length=int(input())
+print("Width =",end=" ")
+width=int(input())
+print("Area=",length*width,"Perimeter=",2*(length+width))
