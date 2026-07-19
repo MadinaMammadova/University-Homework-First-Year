@@ -1,0 +1,7 @@
+print("Flour =",end=" ")
+flour=float(input())
+print("Eggs =",end=" ")
+eggs=float(input())
+print("Milk =",end=" ")
+milk=float(input())
+print("Total =",flour+eggs+milk)
