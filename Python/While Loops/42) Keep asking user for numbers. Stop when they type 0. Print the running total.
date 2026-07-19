@@ -1,0 +1,7 @@
+print("Numbers =",end=" ")
+number=int(input())
+sumtotal=0
+while number!=0:
+    number=int(input())
+    sumtotal=sumtotal+1
+print("Running Total =",sumtotal)
