@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    double a,P,S;
+    cout<<"Insert Square's Side = ";
+    cin>>a;
+    P=4*a;
+    S=pow(a,2);
+    cout<<"Perimeter = "<<P<<endl;
+    cout<<"Area = "<<S;
+    return 0;
+}
