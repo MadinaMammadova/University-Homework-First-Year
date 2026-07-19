@@ -1,0 +1,9 @@
+print("First Number =",end=" ")
+numberone=int(input())
+print("Second Number =",end=" ")
+numbertwo=int(input())
+while numbertwo!=0:
+    mod=numberone%numbertwo
+    numberone=numbertwo
+    numbertwo=mod
+print("GCD =",numberone)
