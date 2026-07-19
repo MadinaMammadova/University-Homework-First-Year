@@ -1,0 +1,10 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+    std::string a;
+    cout<<"Insert Name = ";
+    cin>>a;
+    cout<<"Hello"<<" "<<a<<"!";
+    return 0;
+}    
