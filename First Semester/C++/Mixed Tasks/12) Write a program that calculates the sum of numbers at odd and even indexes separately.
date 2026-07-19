@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int i=1,n,s=0,m,k=0;
+    cout<<"Insert Numbers = ";
+    cin>>n;
+for(i;i<=n;i++){
+    cin>>m;
+    if(i%2==0){
+        s=s+m;
+}
+else
+k=k+m;
+}
+   cout<<"Sum of the numbers with odd indexes = "<<k<<endl;
+   cout<<"Sum of the numbers with even indexes = "<<s;
+  return 0;
+}
