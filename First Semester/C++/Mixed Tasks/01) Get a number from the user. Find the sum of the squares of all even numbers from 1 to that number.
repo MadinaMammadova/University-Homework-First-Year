@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+    int i=1,s=0,n;
+    cout<<"Insert Number = ";
+    cin>>n;
+for(i;i<=n;i++){
+    if(i%2==0){
+        s=s+pow(i,2);
+}
+}
+ cout<<"Sum = "<<s;
+  return 0;
+}
