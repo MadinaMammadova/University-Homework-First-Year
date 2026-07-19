@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int N;
+    cout<<"How many elements will be shown = ";
+    cin>>N;
+    int a=0,b=1,i,c;
+    cout<<"Fibonacci Sequence = ";
+for (int i=1;i<=N;i++) {
+    if (a>1000) break;{ 
+      cout<<a<<" ";
+}
+    c=a+b;
+    a=b;
+    b=c;
+}
+  return 0;
+}
