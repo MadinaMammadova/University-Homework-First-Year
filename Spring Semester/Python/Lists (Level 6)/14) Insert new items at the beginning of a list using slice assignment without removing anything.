@@ -1,0 +1,7 @@
+print("List =",end=" ")
+mylist=["Mady",1,True,21,["Hi",False]]
+print(mylist)
+print("Element =",end=" ")
+element=input()
+mylist[0:0]=[element]
+print("New List =",mylist)
