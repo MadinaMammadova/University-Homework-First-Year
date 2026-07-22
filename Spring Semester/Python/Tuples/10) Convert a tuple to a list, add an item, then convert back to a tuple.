@@ -1,0 +1,7 @@
+print("Tuple =",end=" ")
+mytuple=("System",506,[True],{"Internet",(77,)})
+print(mytuple)
+mylist=list(mytuple)
+mylist.append(False)
+mytuple=tuple(mylist)
+print("New Tuple =",mytuple)
