@@ -1,0 +1,8 @@
+print("List =",end=" ")
+mylist=["Mady",1,True,21,["Hi",False]]
+print(mylist)
+for i in range(0, len(mylist)):
+    if type(mylist[i]) in [list, dict, set]:
+        print(mylist[i],"is Mutable")
+    else:
+        print(mylist[i],"is Immutable")
