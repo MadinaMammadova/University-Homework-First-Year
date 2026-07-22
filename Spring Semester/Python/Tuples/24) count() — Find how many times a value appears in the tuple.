@@ -1,0 +1,5 @@
+print("Tuple =",end=" ")
+mytuple=("Key",32,{False},32,"AI")
+print(mytuple)
+count=mytuple.count(32)
+print("Count of an element=",count)
