@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int number,element;
+    cout<<"Insert Number = ";
+    cin>>number;
+    cout<<"Divisors of the number = ";
+for(element=1;element<=number;element++) {
+    if(number%element==0) {
+     cout<<element<<" ";
+}
+}
+ return 0;
+}
