@@ -1,0 +1,5 @@
+print("List =",end=" ")
+mylist=["Aye!",54,{"#",}]
+print(mylist)
+mylist.append(True)
+print("Appended List =",mylist)
