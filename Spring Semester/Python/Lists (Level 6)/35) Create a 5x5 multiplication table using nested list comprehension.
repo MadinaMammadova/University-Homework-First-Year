@@ -1,0 +1,2 @@
+table=[[(othernumbers*number) for othernumbers in range(1, 6)] for number in range(1, 6)]
+print("5x5 Table=",table)
