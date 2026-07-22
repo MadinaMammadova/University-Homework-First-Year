@@ -1,0 +1,11 @@
+print("Order Total =",end=" ")
+total=float(input())
+print("Are you a member?",end=" ")
+member=input()
+if total>=100:
+  print("Shipping is free!")
+else:
+  if member.strip().lower()=="yes":
+    print("Shipping cost is $3.")
+  else:
+    print("Shipping cost is $7.")
