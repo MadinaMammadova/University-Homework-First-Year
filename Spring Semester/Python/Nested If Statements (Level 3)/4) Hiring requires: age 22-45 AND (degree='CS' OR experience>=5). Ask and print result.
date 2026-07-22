@@ -1,0 +1,13 @@
+print("Degree =",end=" ")
+degree=input()
+print("Age = ",end =" ")
+age=int(input())
+print("Experience =",end=" ")
+experience=int(input())
+if 22<=age<=45:
+  if degree.strip().lower()=="computer science" or experience>=5:
+    print("You are hired!")
+  else:
+    print("Your qualifications doesn't match our requirements.")
+else:
+  print("Your age doesn't match our requirements.")
