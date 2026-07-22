@@ -1,0 +1,7 @@
+print("First Tuple =",end=" ")
+tupleone=("System",506,[True],{"Internet",(77,)})
+print(tupleone)
+print("Second Tuple =",end=" ")
+tupletwo=(45,"Developer",{False})
+print(tupletwo)
+print("Joined Tuple =",tupleone+tupletwo)
