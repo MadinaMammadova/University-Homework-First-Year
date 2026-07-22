@@ -1,0 +1,5 @@
+print("List =",end=" ")
+mylist=["Aye!",54,[" "],{"*",False}]
+print(mylist)
+del mylist[0]
+print("New List =",mylist)
