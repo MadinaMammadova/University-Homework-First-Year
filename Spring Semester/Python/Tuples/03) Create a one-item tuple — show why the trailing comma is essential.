@@ -1,0 +1,5 @@
+print("Tuple =",end=" ")
+nottuple=("DDR4")
+mytuple=("DDR4",)
+print(mytuple)
+print("Not Tuple =",nottuple)
