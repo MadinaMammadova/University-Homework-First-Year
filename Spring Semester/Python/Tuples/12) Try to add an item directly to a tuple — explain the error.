@@ -1,0 +1,6 @@
+print("Tuple =",end=" ")
+mytuple=(45,"Developer",{False})
+print(mytuple)
+mytuple.append("ISO")
+print("New Tuple =",mytuple)
+#Tuples are ordered and immutable meaning you can't add or remove items
