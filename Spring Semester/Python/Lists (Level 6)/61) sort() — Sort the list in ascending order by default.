@@ -1,0 +1,5 @@
+print("List =",end=" ")
+mylist=["Programs","DevOps","01011","Excel"]
+print(mylist)
+mylist.sort()
+print("Sorted List =",mylist)
