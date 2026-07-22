@@ -1,0 +1,5 @@
+print("List =",end=" ")
+mylist=["Yay!",73,[False],{78,}]
+print(mylist)
+wordscontaininga=[words for words in mylist if "a" in str(words)]
+print("Words containing the letter A =",wordscontaininga)
