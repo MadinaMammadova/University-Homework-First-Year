@@ -1,0 +1,5 @@
+print("List =",end=" ")
+mylist=["Python",1,("Swift",),False]
+print(mylist)
+mylist.reverse()
+print("Reversed List=",mylist)
