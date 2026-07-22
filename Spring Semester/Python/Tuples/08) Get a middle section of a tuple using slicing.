@@ -1,0 +1,5 @@
+mytuple=("File",404,["PCX",True],{"Internet"},111,("?",))
+center=len(mytuple)//2
+middle_part=mytuple[center-1:center+1]
+print("Tuple =",mytuple)
+print("Middle Part =",middle_part)
