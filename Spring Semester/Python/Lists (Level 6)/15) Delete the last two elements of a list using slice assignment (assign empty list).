@@ -1,0 +1,5 @@
+print("List =",end=" ")
+mylist=["Mady",1,True,21,["Hi",False]]
+print(mylist)
+mylist[-2:]=[]
+print("New List =",mylist)
