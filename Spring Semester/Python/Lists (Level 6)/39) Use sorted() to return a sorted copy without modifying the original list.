@@ -1,0 +1,5 @@
+print("List =",end=" ")
+mylist=["Python","Hey","Let's go","F1"]
+print(mylist)
+sortedlist=sorted(mylist)
+print("Sorted List=",sortedlist)
