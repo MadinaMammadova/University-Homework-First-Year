@@ -1,0 +1,9 @@
+print("First Number =",end=" ")
+numberone=32
+print(numberone)
+print("Second Number =",end=" ")
+numbertwo=45
+print(numbertwo)
+numberone,numbertwo=numbertwo,numberone
+print("Swapped First Number =",numberone)
+print("Swapped Second Number =",numbertwo)
