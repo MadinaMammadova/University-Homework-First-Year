@@ -1,0 +1,5 @@
+print("List =",end=" ")
+mylist=["#1",False,65,{"CPU"}]
+print(mylist)
+mylist.extend(["RAM"])
+print("New List =",mylist)
