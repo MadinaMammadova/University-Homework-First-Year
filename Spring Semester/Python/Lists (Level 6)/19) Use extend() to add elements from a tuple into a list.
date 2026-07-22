@@ -1,0 +1,8 @@
+print("List =",end=" ")
+mylist=["Mady",1,True]
+print(mylist)
+print("Tuple =",end=" ")
+mytuple=("What's up",89,False,{54,True})
+print(mytuple)
+mylist.extend(mytuple)
+print("New List =",mylist)
