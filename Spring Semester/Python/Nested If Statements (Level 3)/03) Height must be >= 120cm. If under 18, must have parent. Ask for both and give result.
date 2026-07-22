@@ -1,0 +1,11 @@
+print("Height =",end=" ")
+height=float(input())
+print("Age = ",end =" ")
+age=int(input())
+if height>=120:
+  if age>=18:
+   print("You can enter the Theme Park!")
+  else:
+    print("You need an adult to enter!")
+else:
+  print("Sorry! You must be 120 cm or taller to enter!")
