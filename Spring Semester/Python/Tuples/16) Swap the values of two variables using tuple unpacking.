@@ -1,0 +1,4 @@
+def get():return 91,12
+numberone,numbertwo=get()
+print("First Number =",numberone)
+print("Second Number =",numbertwo)
