@@ -1,0 +1,9 @@
+print("First List =",end=" ")
+listone=["Aye!",54,{"*",False}]
+print(listone)
+print("Second List =",end=" ")
+listtwo=["Yay!",23,["Computer"],{True}]
+print(listtwo)
+for element in listtwo:
+    listone.append(element)
+print("Joined List =",listone)
