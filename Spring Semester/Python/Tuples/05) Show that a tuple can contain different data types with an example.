@@ -1,0 +1,3 @@
+print("Tuple =",end=" ")
+mytuple=("File",404,["PCX",True,],{"Internet"})
+print(mytuple)
