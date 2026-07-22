@@ -1,0 +1,4 @@
+print("Tuple =",end=" ")
+mytuple=("File",404,["PCX",True,],{"Internet"})
+print(mytuple)
+print("Selected Index =",mytuple[2])
