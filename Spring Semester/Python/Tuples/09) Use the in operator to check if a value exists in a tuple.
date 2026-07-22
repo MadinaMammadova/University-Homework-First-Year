@@ -1,0 +1,4 @@
+print("Tuple =",end=" ")
+mytuple=("Data",True,21,{"Internet"})
+print(mytuple)
+print("Is this element in the tuple?\n",21 in mytuple)
