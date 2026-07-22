@@ -1,0 +1,8 @@
+print("List =",end=" ")
+mylist=["Aye!",54,["-"],{"#",}]
+print(mylist)
+i=0
+print("Elements =",end=" ")
+while i<=len(mylist)-1:
+    print(mylist[i])
+    i=i+1
