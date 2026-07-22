@@ -1,0 +1,5 @@
+print("Tuple =",end=" ")
+programminglanguages=("C++","Java","Python","Basic","GO","Assembler")
+print(programminglanguages)
+one,*two,three=programminglanguages
+print(one,two,three,)
